@@ -22,5 +22,13 @@ class UserSeeder extends Seeder
             'roles' => 'ADMIN',
             'phone' => '085778757220',
         ]);
+
+        \App\Models\User::create([
+            'name' => 'Super Admin',
+            'email' => 'fic10@gmail.com',
+            'password' => Hash::make('12345678'),
+            'roles' => 'superadmin',
+            'phone' => '085778757220',
+        ]);
     }
 }

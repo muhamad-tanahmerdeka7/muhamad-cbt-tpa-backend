@@ -23,13 +23,23 @@
 
             {{-- SIDEBAR USER --}}
 
-
-
             <li class="nav-item dropdown ">
                 <a href="#" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Users</span></a>
                 <ul class="dropdown-menu">
                     <li>
                         <a class="nav-link" href="{{ route('user.index') }}">User All</a>
+                    </li>
+
+                </ul>
+            </li>
+
+            {{-- SIDEBAR Soal --}}
+
+            <li class="nav-item dropdown ">
+                <a href="#" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Soal</span></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="nav-link" href="{{ route('soal.index') }}">User Soal</a>
                     </li>
 
                 </ul>
